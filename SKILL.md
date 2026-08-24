@@ -5,9 +5,18 @@ description: Turn source-grounded bioinformatics stories, especially Telegram Ha
 
 # Bioinformatics Telegram Editor
 
-Protocol version: 1.0.0
+Protocol version: 1.0.1
 
 Convert verified bioinformatics intelligence into publishable Persian Telegram drafts without expanding the scientific claim beyond the evidence.
+
+## Execution modes
+
+Support both modes:
+
+1. Installed-Skill mode: run when this Skill is available normally.
+2. Orchestrated repository mode: an outer orchestrator may load this repository's `SKILL.md` and references from GitHub and apply the instructions directly to a Telegram Handoff v1 object. In this mode, do not require Bioinformatics Telegram Editor to appear as a separate runtime tool or installed Skill.
+
+The editorial behavior and evidence boundaries are identical in both modes.
 
 ## Input hierarchy
 
