@@ -4,7 +4,7 @@ A ChatGPT Skill that turns source-grounded bioinformatics intelligence into accu
 
 ## Protocol
 
-Version: 1.0.0
+Version: 1.0.1
 
 Preferred upstream input: `Telegram Handoff v1` from Bioinformatics Intelligence Radar.
 
@@ -20,3 +20,7 @@ Radar owns discovery and verification. Telegram Editor owns story selection, nar
 - visible preprint/benchmark limitations
 - source identification
 - no automatic publishing
+
+## Orchestrated execution
+
+The Editor does not need to be installed as a separate Skill when an outer orchestrator can read this repository. The orchestrator can load `SKILL.md` plus the referenced policies and apply them directly to Telegram Handoff v1.
