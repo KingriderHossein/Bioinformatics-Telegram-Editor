@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 - 2026-08-24
+
+- Added orchestrated repository mode so the Editor can be applied from canonical GitHub instructions without being installed as a runtime Skill.
+- Clarified that missing Skill discovery is not an error when an outer orchestrator has loaded the Editor repository.
+- Preserved the same evidence, hype-control, and publishing boundaries in both execution modes.
+
 ## 1.0.0 - 2026-08-24
 
 - Added Telegram Handoff v1 as the preferred input contract.
