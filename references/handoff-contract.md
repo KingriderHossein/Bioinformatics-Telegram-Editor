@@ -49,3 +49,7 @@ Recommended:
 - A `preprint` content type must not have a peer-reviewed publication status.
 - `author-reported benchmark` must not be rewritten as independently verified.
 - If `primary_url` is absent, use available DOI/PMID/release identifiers and do not invent a URL.
+
+## Orchestrated mode
+
+This contract does not require direct Skill-to-Skill invocation. An outer orchestrator may construct the handoff after Radar, keep it in the same execution context, load this repository's instructions, and apply the Editor workflow directly. Missing installed-Skill discovery is not an error in orchestrated repository mode.
