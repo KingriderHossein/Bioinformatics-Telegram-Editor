@@ -1,0 +1,3 @@
+interface:
+  display_name: "Bioinformatics Telegram Editor"
+  short_description: "Turn verified bioinformatics news into Persian Telegram drafts"
