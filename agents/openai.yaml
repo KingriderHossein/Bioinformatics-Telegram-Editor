@@ -1,3 +1,4 @@
 interface:
   display_name: "Bioinformatics Telegram Editor"
   short_description: "Turn verified bioinformatics news into Persian Telegram drafts"
+  default_prompt: "Turn this verified bioinformatics story or Telegram Handoff v1 payload into an evidence-safe Persian Telegram draft and run the hype-control gate."
